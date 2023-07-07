@@ -4,7 +4,7 @@ import EMSLogo from "../assets/EMSLogo.png";
 
 const Navbar = () => {
   return (
-    <div className="fixed flex w-full h-[80px] justify-between items-center px-4 text-gray-300">
+    <div className="fixed flex w-full h-[80px] justify-between items-center px-4 bg-gradient-to-b from-orange-600 to-sky-900 text-gray-300">
       <div>
         <img src={EMSLogo} alt="my logo" style={{ width: "50px" }} />
       </div>
