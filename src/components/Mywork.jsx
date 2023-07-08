@@ -6,7 +6,7 @@ import ECommerceTemplate from '../assets/ECommerceTemplate.png'
 
 const Mywork = () => {
   return (
-    <div className='w-full md:h-screen text-gray-200 bg-gradient-to-b from-sky-900 to-orange-800'>
+    <div name='projects' className='w-full md:h-screen text-gray-200 bg-gradient-to-b from-sky-900 to-orange-800'>
         <div className='max-w-[1000px]  mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 py-2 text-gray-200'>My Work</p>
@@ -25,11 +25,11 @@ const Mywork = () => {
                             E-Commerce React Website
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-700 text-sky-600 font-bold text-lg'>Demo</button>
+                            <a href="https://edmond-setati-e-commerce-website.netlify.app/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-900 text-gray-200 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-700 text-sky-600 font-bold text-lg'>Code</button>
+                            <a href="https://github.com/NovemberXXI/e-comm-react">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-900 text-gray-200 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
@@ -42,11 +42,11 @@ const Mywork = () => {
                             Weather App
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-700 text-sky-600 font-bold text-lg'>Demo</button>
+                            <a href="https://edmond-setat-weather-app.netlify.app/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-900 text-gray-200 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-700 text-sky-600 font-bold text-lg'>Code</button>
+                            <a href="https://github.com/NovemberXXI/MyWeatherAPP">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-900 text-gray-200 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
@@ -61,11 +61,11 @@ const Mywork = () => {
                             Calculator
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-700 text-sky-600 font-bold text-lg'>Demo</button>
+                            <a href="https://edmond-calculater.netlify.app/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-900 text-gray-200 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-700 text-sky-600 font-bold text-lg'>Code</button>
+                            <a href="https://github.com/NovemberXXI/My-Calculator">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-900 text-gray-200 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
@@ -78,11 +78,11 @@ const Mywork = () => {
                             E-Commerce Template
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-700 text-sky-600 font-bold text-lg'>Demo</button>
+                            <a href="https://edmond-ecommerce-template.netlify.app/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-900 text-gray-200 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-700 text-sky-600 font-bold text-lg'>Code</button>
+                            <a href="https://github.com/NovemberXXI/E-Commerce-template">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-gray-900 text-gray-200 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
