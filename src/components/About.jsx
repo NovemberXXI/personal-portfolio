@@ -5,11 +5,11 @@ const About = () => {
     <div name='about' className='w-full h-screen bg-gradient-to-b from-orange-800 to-sky-900 text-gray-200'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
 
-            <div className='sm:text-right pb-8 pl-4'>
+            <div className='p-8 pl-4'>
                 <p className='text-4xl font-bold inline border-b-4 border-white'>About Me</p>
             </div>   
 
-            <p className='text-xl rounded-lg mx-auto mt-8 max-w-[400px] sm:max-w-[500px] hover:scale-105 duration-500'>
+            <p className='text-xl rounded-lg mx-auto mt-8 max-w-[500px] ml-5 mr-5 hover:scale-105 duration-500'>
                     Since I have started with my Software Development journey, 
                     I have created multiple websites and apps including 
                     <span className="text-lg text-blue-500"> Weather</span> App, <span className="text-lg text-green-500"> 
