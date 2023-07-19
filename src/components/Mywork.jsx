@@ -6,10 +6,10 @@ import ECommerceTemplate from '../assets/ECommerceTemplate.png'
 
 const Mywork = () => {
   return (
-    <div name='projects' className='w-full md:h-screen text-gray-200 bg-gradient-to-b from-sky-900 to-orange-800'>
-        <div className='max-w-[1000px]  mx-auto p-4 flex flex-col justify-center w-full h-full'>
+    <div name='projects' className='w-full h-auto text-gray-100 bg-gradient-to-b from-sky-900 to-orange-800'>
+        <div className='max-w-[1000px] px-10 mx-auto pt-20 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 py-2 text-gray-200'>My Work</p>
+                <p className='text-4xl font-bold inline border-b-4 py-2 text-gray-100'>My Work</p>
                 <p className='py-6 text-xl'>Checkout Projects I Have Built.</p>
             </div>
 
@@ -21,7 +21,7 @@ const Mywork = () => {
                     
                     {/* hovEffect */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
+                        <span className='text-2xl font-bold text-white'>
                             E-Commerce React Website
                         </span>
                         <div className='pt-8 text-center'>

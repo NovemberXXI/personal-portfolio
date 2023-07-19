@@ -10,9 +10,9 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className="fixed flex w-full h-[80px] justify-between items-center px-4 bg-gradient-to-b from-orange-900 to-sky-900 text-gray-100">
+    <div className="fixed flex w-full h-[70px] justify-between items-center px-4 bg-gradient-to-b from-orange-900 to-sky-900 text-gray-100">
       <div>
-        <h1 className="text-3xl text-gray-300">Edmond.M.Setati</h1>
+        <h1 className="text-2xl text-gray-300">Edmond.M.Setati</h1>
       </div>
 
       {/* menu */}
@@ -48,13 +48,13 @@ const Navbar = () => {
 
       {/* h menu */}
       <div onClick={handleClick} className="text-gray-300 md:hidden z-10" >
-        {!nav ? <FaBars size={25} /> : <FaTimes size={25}/> }
+        {!nav ? <FaBars size={20} /> : <FaTimes size={20}/> }
       </div>
 
 
       {/* mobile menu */}
       <ul className={!nav ? 'hidden' : "absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-orange-900 to-sky-900 flex flex-col justify-center items-center"}>
-        <li className="py-6 text-4xl">
+        <li className="py-6 text-3xl">
           <Link onClick={handleClick} to="home"  smooth={true}  duration={500} >
           Home
           </Link>
