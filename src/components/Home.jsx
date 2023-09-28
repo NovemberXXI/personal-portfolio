@@ -8,7 +8,7 @@ const Home = () => {
         {/* conta */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
             <div className='pb-8 pt-10 pl-4'>
-                <p className='text-4xl py-2 font-bold inline border-b-4 border-white'>Hello</p>
+                <p className='text-4xl py-2 font-bold inline border-b-4 border-white'>Hello, My Name Is</p>
             </div>  
 
 
